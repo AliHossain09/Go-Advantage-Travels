@@ -1,0 +1,41 @@
+
+/* Responsive for 992px  */
+
+@media screen and (min-width:601px) and (max-width:992px) {
+    /* Navbar starting responsive section */
+        .item-container a{
+            width: 30%;
+            margin-right: 5px;
+            font-size: 16px;
+        }
+        .nav-container{
+width: 70%;
+        }
+        .Advantage {
+            font-size: 25px;
+            font-weight: 600;
+        }
+/* Navbar ending responsive section */
+
+
+
+    }
+
+
+
+/* Responsive for 992px  */
+
+@media screen and (max-width:600px) {
+    /* Navbar starting responsive section */
+    #cheak-button{
+        display: block;
+        }
+        .item-container{
+            display: none;
+        }
+/* Navbar ending responsive section */
+
+
+
+
+    }
