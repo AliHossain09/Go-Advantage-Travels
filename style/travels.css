@@ -9,6 +9,9 @@ body {
     box-sizing: 0;
 }
 
+
+
+
 /* navbar style section */
 
 .header-section {
@@ -18,13 +21,15 @@ body {
     display: flex;
 
 }
-#cheak-button{
+
+#cheak-button {
     float: right;
     line-height: 8;
     color: #131318;
     display: none;
 }
-#cheak{
+
+#cheak {
     display: none;
 }
 
@@ -50,14 +55,100 @@ body {
 .item-container {
     width: 50%;
     display: flex;
-justify-content: space-between;
-align-items: center;
+    justify-content: space-between;
+    align-items: center;
 }
-#Active{
-    color:#FF5400
+
+#Active {
+    color: #FF5400
 }
-.item-container a{
-color:#424247;
-font-size: 18px;
-font-weight: 400;
-text-decoration: none;}
+
+.item-container a {
+    color: #424247;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+/* Explore your travel style section */
+.explore-section {
+    width: 81%;
+    max-width: 1170px;
+    margin: 0 auto;
+    height: 500px;
+    background-image: url("../Go-Advantage-Travels-images/Group13.png");
+
+
+}
+
+.explore-title {
+    color: #FFF;
+    font-size: 60px;
+    font-weight: 700;
+   text-align: center;
+   margin-top: 50px;
+    
+}
+
+
+.explore-discription {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.form input {
+    width: 110px;
+    height: 40px;
+    border: 0;
+    border-radius: 8px;
+    text-align: center;
+
+
+}
+
+.btn-primary {
+    width: 113px;
+    height: 43px;
+    border: 0;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+}
+
+.form {
+
+    margin-top: 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    background-position: center;
+
+}
+
+
+.popular{
+    width: 81%;
+    max-width: 1170px;
+    margin: 0 auto;
+    border: 2px solid red;
+    min-height: 500px;
+    margin-top: 100px;
+    display: flex;
+}
+.left{
+width: 50%;
+border: 2px solid blue;
+}
+.right{
+width: 50%;
+border: 2px solid yellow;
+
+}

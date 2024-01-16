@@ -9,11 +9,11 @@
             font-size: 16px;
         }
         .nav-container{
-width: 70%;
+                width: 75%;
         }
         .Advantage {
-            font-size: 25px;
-            font-weight: 600;
+            font-size: 70px;
+            font-weight: 400;
         }
 /* Navbar ending responsive section */
 
@@ -33,9 +33,26 @@ width: 70%;
         .item-container{
             display: none;
         }
+        
 /* Navbar ending responsive section */
 
+.form{
+    /* Explore your travel section starting hear */
+    flex-direction: column;
+    text-align: center;
+    
+}
+.explore-title{
+    margin: 30px 0 0 0;
+}
+.explore-discription{
+    width: 440px;
+    margin: 0 auto;
+    padding-top: 20px;
+    text-align: center;
+}
+/* Explore your travel section ending hear */
 
 
 
-    }
+}
