@@ -76,6 +76,7 @@ body {
     max-width: 1170px;
     margin: 0 auto;
     height: 500px;
+    border: 1px solid #FFF;
     background-image: url("../Go-Advantage-Travels-images/Group13.png");
 
 
@@ -137,7 +138,7 @@ body {
 .popular {
     width: 81%;
     max-width: 1170px;
-    margin: 0 auto; 
+    margin: 0 auto;
 
     margin-top: 100px;
     display: flex;
@@ -182,4 +183,346 @@ ul {
     font-size: 40px;
     font-weight: 800;
     margin-top: 0%;
+}
+
+/* Choose Your Destination style section */
+.Destination-container {
+    width: 81%;
+    max-width: 1170px;
+    margin: 100px auto;
+}
+
+.Destination-raw {
+    display: flex;
+    position: relative;
+    gap: 5px;
+    margin-bottom: 6px;
+
+}
+
+.img-div {
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.img-div1 {
+    position: absolute;
+    top: 45%;
+    left: 65%;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.img-div2 {
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.img-div3 {
+    position: absolute;
+    top: 40%;
+    left: 42%;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.img-div4 {
+    position: absolute;
+    top: 40%;
+    left: 82%;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.img-div5 {
+    position: absolute;
+    top: 40%;
+    left: 12%;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.img-div6 {
+    position: absolute;
+    top: 45%;
+    left: 65%;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.Destination-raw img {
+    width: 100%;
+    margin: 0;
+}
+
+.dc-title-section p {
+    text-align: center;
+}
+
+.Destination-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin: 0;
+    text-align: center;
+}
+
+.Destination-discription {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+/* Why Choose Us style section */
+.choose-container {
+    width: 81%;
+    max-width: 1170px;
+    margin: 100px auto;
+
+}
+
+.choose-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-top: 0;
+    text-align: center;
+}
+
+.choose-discription {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+
+}
+
+.article-div {
+    display: flex;
+
+
+
+
+}
+
+.article h3 {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.article p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 450px;
+}
+
+.article1 h3 {
+    color: #131318;
+    font-size: 24px;
+
+}
+
+.article1 p {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.article2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    max-width: 550px;
+    height: 240px;
+    padding: 20px;
+}
+
+.article3 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    max-width: 550px;
+    height: 240px;
+    padding: 20px;
+    margin-right: 15px;
+
+}
+
+.article1 {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    max-width: 550px;
+    height: 240px;
+    margin: 10px auto;
+    padding: 20px;
+}
+
+/* Perfect-Place-container style section */
+
+.Perfect-Place-container {
+    width: 81%;
+    max-width: 1170px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.Place {
+    width: 50%;
+    
+
+}
+
+.Place-video {
+    width: 50%;
+
+}
+
+.place-title {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    max-width: 70%;
+    padding: 20px;
+}
+
+.place-discription {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 90%;
+    padding: 10px 30px;
+}
+
+ul li {
+    color: #131318;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+    max-width: 80%;
+
+}
+.see-more{
+    border-radius: 8px;
+background: #FF5400;
+max-width: 25%;
+height: 50px;
+border: 0;
+color: #FFF;
+font-size: 15px;
+}
+
+/* Newsletter style section */
+.Newsletter-container {
+    width: 81%;
+    max-width: 1170px;
+    margin: 100px auto;
+    min-height: 500px;
+    display: flex;
+    gap: 10px;
+
+}
+
+.Newsletter {
+    width: 40%;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.Newsletter-img {
+    width: 60%;
+
+}
+
+.Newsletter-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.Newsletter-title {
+    color: #131318;
+    font-size: 35px;
+    font-weight: 800;
+    padding: 30px;
+
+}
+
+.Newsletter-discription {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 350px;
+    padding: 30px;
+}
+
+.Newsletter-btn {
+    border-radius: 8px;
+    background: #FF5400;
+    width: 97%;
+    height: 50px;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+}
+
+input {
+    width: 92%;
+    height: 30px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: 0;
+    padding: 10px;
+
+}
+
+form {
+    margin: 30px;
+}
+
+
+/* footer style section  */
+footer {
+    width: 81%;
+    max-width: 1170px;
+    margin: 100px auto;
+    min-height: 400px;
+    text-align: center;
+    background: rgba(19, 19, 24, 0.05);
+    border: 1px solid rgba(19, 19, 24, 0.05);
+
+}
+
+footer h2 {
+    padding-top: 50px;
+}
+
+footer p {
+    max-width: 500px;
+    margin: 20px auto;
+}
+
+.footer-logo {
+    padding-bottom: 30px;
 }

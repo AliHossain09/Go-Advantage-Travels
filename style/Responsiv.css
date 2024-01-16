@@ -17,8 +17,77 @@
         }
 /* Navbar ending responsive section */
 
+.Destination-raw{
+    /* Choose Your Destination strating section */
+    flex-direction: column;
+    position: relative;
+    }
+.img-div {
+    position: absolute;
+    top: 20%;
+    left: 37%;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    }
+    .img-div1 {
+        position: absolute;
+        top: 60%;
+        left: 35%;
+        color: #FFF;
+        font-size: 28px;
+        font-weight: 800;
+        }
+        .img-div2 {
+            position: absolute;
+            top: 45%;
+            left: 35%;
+            color: #FFF;
+            font-size: 28px;
+            font-weight: 800;
+            }
+            .img-div3 {
+                position: absolute;
+                top: 15%;
+                left: 32%;
+                color: #FFF;
+                font-size: 28px;
+                font-weight: 800;
+                }
+                .img-div4 {
+                    position: absolute;
+                    top: 75%;
+                    left: 42%;
+                    color: #FFF;
+                    font-size: 28px;
+                    font-weight: 800;
+                    }
+                    .img-div5 {
+                        position: absolute;
+                        top: 30%;
+                        left: 32%;
+                        color: #FFF;
+                        font-size: 28px;
+                        font-weight: 800;
+                        }
+                        .img-div6 {
+                            position: absolute;
+                            top: 75%;
+                            left: 35%;
+                            color: #FFF;
+                            font-size: 28px;
+                            font-weight: 800;
+                            }
+/* Choose Your Destination ending section */
 
-
+.article2{
+    /* Why Choose Us starting section */
+    margin: 0 20px;
+}
+ /* Why Choose Us ending section */
+ 
+    
+ 
     }
 
 
@@ -81,4 +150,113 @@
     margin: 20px 0 0 0;
 }
 /* Our Popular Tours responsiv section ending hear  */
+
+.Destination-raw{
+    /* Choose Your Destination strating section */
+flex-direction: column;
+position: relative;
+}
+
+    .img-div1 {
+        position: absolute;
+        top: 60%;
+        left: 35%;
+        color: #FFF;
+        font-size: 28px;
+        font-weight: 800;
+        }
+        .img-div2 {
+            position: absolute;
+            top: 45%;
+            left: 35%;
+            color: #FFF;
+            font-size: 28px;
+            font-weight: 800;
+            }
+            .img-div3 {
+                position: absolute;
+                top: 15%;
+                left: 32%;
+                color: #FFF;
+                font-size: 28px;
+                font-weight: 800;
+                }
+                .img-div4 {
+                    position: absolute;
+                    top: 75%;
+                    left: 42%;
+                    color: #FFF;
+                    font-size: 28px;
+                    font-weight: 800;
+                    }
+                    .img-div5 {
+                        position: absolute;
+                        top: 30%;
+                        left: 32%;
+                        color: #FFF;
+                        font-size: 28px;
+                        font-weight: 800;
+                        }
+                        .img-div6 {
+                            position: absolute;
+                            top: 75%;
+                            left: 35%;
+                            color: #FFF;
+                            font-size: 28px;
+                            font-weight: 800;
+                            }
+/* Choose Your Destination ending section */
+
+.article-div{
+     /* Why Choose Us starting section */
+    flex-direction: column;
+}
+.article2{
+    margin-top: 10px;
+}
+ /* Why Choose Us ending section */
+
+.Newsletter-container{
+    flex-direction: column;
+}
+.Newsletter{
+    width: 100%;
+}
+.Newsletter-img{
+    width: 100%;
+}
+
+.Newsletter-title{
+text-align: center;
+}
+.Newsletter-discription {
+text-align: center;
+}
+/* Perfect-Place-container style starting here */
+.Perfect-Place-container{
+    flex-direction: column;
+    
+}
+.Place-video{
+    width: 100%;
+}
+.Place{
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #FF5400;
+    border-radius: 10px;
+}
+.place-title{
+    width: 100%;
+    padding: 0;
+}
+.place-discription {
+    width: 100%;
+    padding: 0;
+}
+ul li{
+    width: 100%;
+    padding: 0;
+}
+/* Perfect-Place-container style ending here */
 }
