@@ -51,8 +51,34 @@
     padding-top: 20px;
     text-align: center;
 }
+.popular{
+    
+}
+.Service-container{
+    width: auto;
+}
 /* Explore your travel section ending hear */
 
+.popular {
+    /* Our Popular Tours responsiv section starting hear  */
+    flex-direction: column;
+    text-align: center;
+}
+.Service-container{
+    width: 440px;
+    
+}
+.left h3 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    width: 440px;
+}
 
 
+.right {
+    width: 100%;
+    margin: 20px 0 0 0;
+}
+/* Our Popular Tours responsiv section ending hear  */
 }
