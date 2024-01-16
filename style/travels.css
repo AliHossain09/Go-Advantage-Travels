@@ -378,6 +378,114 @@ ul {
     padding: 20px;
 }
 
+/* Deals & Discounts  style section  */
+.Deals-Discounts {
+    width: 81%;
+    max-width: 1170px;
+    margin: 100px auto;
+    
+
+}
+
+
+
+.discounts-img-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+}
+
+.Discounts1 {
+    background-image: url("../Go-Advantage-Travels-images/Group\ 39.png");
+    max-width: 1170px;
+    height: 450px;
+    position: relative;
+    
+}
+.majore1{
+position: absolute;
+top: 15%;
+left: 50%;
+}
+.Discounts2 {
+    background-image: url("../Go-Advantage-Travels-images/Group\ 40.png");
+    max-width: 1170px;
+    height: 450px;
+    position: relative;
+}
+.majore2{
+    position: absolute;
+    top: 15%;
+    left: 6%;
+}
+.Discounts3 {
+    background-image: url("../Go-Advantage-Travels-images/Group\ 39.png");
+    max-width: 1170px;
+    height: 450px;
+    position: relative;
+}
+.majore3{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+}
+.Discounts-btn {
+    width: 20%;
+    height: 50px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 auto;
+
+}
+.bbbd{padding: 10px;
+text-align: center;
+}
+.discount-btn {
+    width: 20%;
+    height: 35px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: 0;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+   
+}
+
+.discount-prise {
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.discount-discript {
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.discount-tit {
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800
+}
+
+.majore1, .majore2, .majore3 {
+    max-width: 40%;
+    height: 60%;
+    background: rgba(255, 255, 255, 0.767);
+    border: 2px solid #FFF;
+    border-radius: 16px;
+    backdrop-filter: blur(2.5px);
+    padding: 20px;
+
+}
+
 /* Perfect-Place-container style section */
 
 .Perfect-Place-container {
@@ -391,7 +499,7 @@ ul {
 
 .Place {
     width: 50%;
-    
+
 
 }
 
@@ -424,14 +532,15 @@ ul li {
     max-width: 80%;
 
 }
-.see-more{
+
+.see-more {
     border-radius: 8px;
-background: #FF5400;
-max-width: 25%;
-height: 50px;
-border: 0;
-color: #FFF;
-font-size: 15px;
+    background: #FF5400;
+    max-width: 25%;
+    height: 50px;
+    border: 0;
+    color: #FFF;
+    font-size: 15px;
 }
 
 /* Newsletter style section */
